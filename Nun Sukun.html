@@ -42,27 +42,43 @@
   </div>
 
 
-  <nav class="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s" style="background-color: black;">
-		
-    <a href="index.html" class="logo m-0 float-start">Tajwid.com<span class="text-black">.</span></a>
-  
-  <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
-    data-bs-target="#navbarCollapse">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarCollapse">
-    <div class="navbar-nav ms-auto p-4 p-lg-0">
-      <a href="index.html" class="nav-item nav-link active text-white">Home</a>
-      <div class="nav-item dropdown">
-        <a href="#" class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown">Pages</a>
-        <div class="dropdown-menu border-light m-0">
-          <a href="./taurat.html" class="dropdown-item">Hukum Nun Sukun & Tanwin</a>
-          <a href="./injil.html" class="dropdown-item">Hukum Sukun Mati</a>
-          <a href="./zabur.html" class="dropdown-item">Hukum Nun & Mim Tasydid</a>
-          <a href="./alquran.html" class="dropdown-item">Hukum Lam Ta'rif</a>
-        </div>
-  </div>
-</nav>
+  <nav
+	class="navbar navbar-expand-lg navbar-dark shadow-lg fixed-top"
+  >
+	<div class="container">
+		<a href="index.html" class="logo m-0 float-start" >Tajwid.com<span class="text-black">.</span></a>
+	  <button
+		class="navbar-toggler"
+		type="button"
+		data-bs-toggle="collapse"
+		data-bs-target="#navbarText"
+		aria-controls="navbarText"
+		aria-expanded="false"
+		aria-label="Toggle navigation"
+	  >
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse text-right" id="navbarText">
+		<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+		  <li class="nav-item">
+			<a class="nav-link" href="#layanan">Layanan</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#portofolio">Portofolio</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#tentang">Tentang</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#staff">Staff</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#kontak">Kontak Kami</a>
+		  </li>
+		</ul>
+	  </div>
+	</div>
+  </nav>
 
   <div class="hero overlay inner-page">
     <img src="images/Page 2.png" alt="" class="img-fluid blob">
@@ -75,16 +91,1083 @@
     </div>
   </div>
 
+  
+
   <div class="section">
     <div class="container article">
       <div class="row justify-content-center align-items-stretch">
+      
 
-        <article class="col-lg-8 order-lg-2 px-lg-5 text-black">
-          <p>Dalam ilmu tajwid, hukum yang biasa dibahas oleh para ulama tajwid adalah mengenai hukum nun sukun dan tanwin. Hukum nun sukun dan tanwin ada 5 macam:</p>
+        <article class="col-lg-10 text-black">
+          <p align="justify">Dalam ilmu tajwid, hukum yang biasa dibahas oleh para ulama tajwid adalah mengenai hukum nun sukun dan tanwin. Hukum nun sukun dan tanwin ada 5 macam:
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h1>
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  Idzhar
+                </button>
+              </h1>
+              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p align="justify">Idzhar berarti menerangkan atau menjelaskan. Sedangkan Halqi artinya: Kerongkongan. Yaitu Apabila ada nun sukun dan tanwin bertemu dengan salah satu huruf Halqi (tenggorokan) yang enam Yaitu: ح خ ع غ ء هـ. Nun sukun dan tanwin di atas harus dibaca dengan terang dan jelas. Sebab bertemu dengan hurup Halqi (tenggorokan). </p>
+            <p>Contoh:</p>
+            
+            <section class="table__body">
+              <table>
+                  <thead>
+                      <tr>
+                          <th>  <span class="icon-arrow">&UpArrow;</span></th>
+                          <th> Tanwin </th>
+                          <th> Nun Sukun </th>
+                          
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td>اٰ</td>
+                          
+                          <td><button id="play">&#9658</button>
+                            <script>
+                                 let play = document.getElementById("play");
+                                     function playMusic() {
+                                      let audio = new Audio("Man amana.mp3");
+                                      audio.play()
+                                   }
+                                   play.addEventListener("click", playMusic);
+                            </script> رَسُو<u>لٌ أَ</u>مِينٌ </td>
+                          <td><button id="play1">&#9658</button>
+                            <script>
+                                 let play1 = document.getElementById("play1");
+                                     function playMusic1() {
+                                      let audio = new Audio("Man amana.mp3");
+                                      audio.play()
+                                   }
+                                   play1.addEventListener("click", playMusic1);
+                            </script> مَ<u>نْ اٰ</u>مَنَ </td>
+                          
+                      </tr>
+                      <tr>
+                          <td> هـ </td>
+                          
+                          <td><button id="play2">&#9658</button>
+                            <script>
+                                 let play2 = document.getElementById("play2");
+                                     function playMusic2() {
+                                      let audio = new Audio("Man amana.mp3");
+                                      audio.play()
+                                   }
+                                   play2.addEventListener("click", playMusic2);
+                            </script> سَلٰ<u>مٌۛ هِ</u>يَ </td>
+                          <td><button id="play3">&#9658</button>
+                            <script>
+                                 let play3 = document.getElementById("play3");
+                                     function playMusic3() {
+                                      let audio = new Audio("Man amana.mp3");
+                                      audio.play()
+                                   }
+                                   play3.addEventListener("click", playMusic3);
+                            </script>  مِ<u>نْ هٰ</u>ذِهِ  </td>
+                          <!-- <td>
+                              <p class="status cancelled">Cancelled</p>
+                          </td>
+                          <td> <strong>$5350.50</strong> </td> -->
+                      </tr>
+                      <tr>
+                          <td> ع</td>
+                          
+                          <td> <button id="play4">&#9658</button>
+                            <script>
+                                 let play4 = document.getElementById("play4");
+                                     function playMusic4() {
+                                      let audio = new Audio("Man amana.mp3");
+                                      audio.play()
+                                   }
+                                   play4.addEventListener("click", playMusic4);
+                            </script> سَمِي<u>عٌ عَ</u>لِيمٌ
+                              </td>
+                          <td> <button id="play5">&#9658</button>
+                            <script>
+                                 let play5 = document.getElementById("play5");
+                                     function playMusic5() {
+                                      let audio = new Audio("Man amana.mp3");
+                                      audio.play()
+                                   }
+                                   play5.addEventListener("click", playMusic5);
+                            </script>مِ<u>نْ عَ</u>لَقٍۚ  </td>
+                          <!-- <td>
+                              <p class="status shipped">Shipped</p>
+                          </td>
+                          <td> <strong>$210.40</strong> </td> -->
+                      </tr>
+                      <tr>
+                          <td> ح</td>
+                          
+                          <td> <button id="play6">&#9658</button>
+                            <script>
+                                 let play6 = document.getElementById("play6");
+                                     function playMusic6() {
+                                      let audio = new Audio("Man amana.mp3");
+                                      audio.play()
+                                   }
+                                   play6.addEventListener("click", playMusic6);
+                            </script>  نَا<u>رٌ حَا</u>مِيَةٌ
+
+                              </td>
+                          <td> <button id="play7">&#9658</button>
+                            <script>
+                                 let play7 = document.getElementById("play7");
+                                     function playMusic7() {
+                                      let audio = new Audio("Man amana.mp3");
+                                      audio.play()
+                                   }
+                                   play7.addEventListener("click", playMusic7);
+                            </script> مِ<u>نْ حَ</u>يْثُ  </td>
+                          <!-- <td>
+                              <p class="status delivered">Delivered</p>
+                          </td>
+                          <td> <strong>$149.70</strong> </td> -->
+                      </tr>
+                      <tr>
+                          <td> غ </td>
+                          
+                          <td> <button id="play8">&#9658</button>
+                            <script>
+                                 let play8 = document.getElementById("play8");
+                                     function playMusic8() {
+                                      let audio = new Audio("Man amana.mp3");
+                                      audio.play()
+                                   }
+                                   play8.addEventListener("click", playMusic8);
+                            </script>  قَلِيْلَ<u>ةٍ غَ</u>لَبَتْ  </td>
+                          <td> <button id="play9">&#9658</button>
+                            <script>
+                                 let play9 = document.getElementById("play9");
+                                     function playMusic9() {
+                                      let audio = new Audio("Man amana.mp3");
+                                      audio.play()
+                                   }
+                                   play9.addEventListener("click", playMusic9);
+                            </script> مِّ<u>نْ غِ</u>لٍّ  </td>
+                          <!-- <td>
+                              <p class="status pending">Pending</p>
+                          </td>
+                          <td> <strong>$399.99</strong> </td> -->
+                      </tr>
+                      <tr>
+                          <td>  خ </td>
+                          
+                          <td> <button id="play10">&#9658</button>
+                            <script>
+                                 let play10 = document.getElementById("play10");
+                                     function playMusic10() {
+                                      let audio = new Audio("Man amana.mp3");
+                                      audio.play()
+                                   }
+                                   play10.addEventListener("click", playMusic10);
+                            </script> مُّؤْمِنَ<u>ةٌ خَ</u>يْرٌ  </td>
+                          <td> <button id="play11">&#9658</button>
+                            <script>
+                                 let play11 = document.getElementById("play11");
+                                     function playMusic11() {
+                                      let audio = new Audio("Man amana.mp3");
+                                      audio.play()
+                                   }
+                                   play11.addEventListener("click", playMusic11);
+                            </script> مِّ<u>نْ خَ</u>وْفٍࣖ  </td>
+                          <!-- <td>
+                              <p class="status pending">Pending</p>
+                          </td>
+                          <td> <strong>$399.99</strong> </td> -->
+                      </tr>
+                      
+                  </tbody>
+              </table>
+          </section>
+            
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Idgham Bighunnah
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p align="justify">Idgham artinya : Memasukkan atau mentasydidkan, Bighunnah artinya: dengan mendengungkan. Hal tersebut apabila ada Nun sukun atau tanwin bertemu dengan salah satu dari hurup Ya, Waw, Mim dan Nun. maka hukum bacaanaya disebut ldgham Bighunnah. Prosesnya adalah nun sukun atau tanwin dimasukkan atau ditasydidkan kedalam salah satu hurup yang empat itu dengan suara didengungkan.</p>
+                  <p>Contoh:</p>
+            <section class="table__body">
+              <table>
+                  <thead>
+                      <tr>
+                          <th>  <span class="icon-arrow">&UpArrow;</span></th>
+                          <th> Tanwin </th>
+                          <th> Nun Sukun </th>
+                          
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td> ي </td>
+                          
+                          <td> <button id="play12">&#9658</button>
+                            <script>
+                                 let play12 = document.getElementById("play12");
+                                     function playMusic12() {
+                                      let audio = new Audio("Man amana.mp3");
+                                      audio.play()
+                                   }
+                                   play12.addEventListener("click", playMusic12);
+                            </script> وُجُوْ<u>هٌ يَ</u>وْمَئِذٍ
+
+                             </td>
+                          <td> <button id="play13">&#9658</button>
+                            <script>
+                                 let play13 = document.getElementById("play13");
+                                     function playMusic13() {
+                                      let audio = new Audio("Man amana.mp3");
+                                      audio.play()
+                                   }
+                                   play13.addEventListener("click", playMusic13);
+                            </script>فَمَ<u>ن يَ</u>عۡمَلۡ
+
+                             </td>
+                          <!-- <td>
+                              <p class="status delivered">Delivered</p>
+                          </td>
+                          <td> <strong> $128.90 </strong></td> -->
+                      </tr>
+                      <tr>
+                          <td>  و  </td>
+                          
+                          <td> <button id="play14">&#9658</button>
+                            <script>
+                                 let play14 = document.getElementById("play14");
+                                     function playMusic14() {
+                                      let audio = new Audio("Man amana.mp3");
+                                      audio.play()
+                                   }
+                                   play14.addEventListener("click", playMusic14);
+                            </script>غِشَاوَ<u>ةٌ وَ</u>لَهُمْ </td>
+                          <td> <button id="play15">&#9658</button>
+                            <script>
+                                 let play15 = document.getElementById("play15");
+                                     function playMusic15() {
+                                      let audio = new Audio("Man amana.mp3");
+                                      audio.play()
+                                   }
+                                   play15.addEventListener("click", playMusic15);
+                            </script> مَ<u>نۡ وُّ</u>جِدَ
+
+                              </td>
+                          <!-- <td>
+                              <p class="status cancelled">Cancelled</p>
+                          </td>
+                          <td> <strong>$5350.50</strong> </td> -->
+                      </tr>
+                      <tr>
+                          <td> م</td>
+                          
+                          <td> <button id="play16">&#9658</button>
+                            <script>
+                                 let play16 = document.getElementById("play16");
+                                     function playMusic16() {
+                                      let audio = new Audio("Man amana.mp3");
+                                      audio.play()
+                                   }
+                                   play16.addEventListener("click", playMusic16);
+                            </script>فِيْ عَمَ<u>دٍ مُّ</u>مَدَّدَةٍ
+                              </td>
+                          <td> <button id="play17">&#9658</button>
+                            <script>
+                                 let play17 = document.getElementById("play17");
+                                     function playMusic17() {
+                                      let audio = new Audio("Man amana.mp3");
+                                      audio.play()
+                                   }
+                                   play17.addEventListener("click", playMusic17);
+                            </script> مِّ<u>نْ مِّ</u>ثْلِهٖ </td>
+                          <!-- <td>
+                              <p class="status shipped">Shipped</p>
+                          </td>
+                          <td> <strong>$210.40</strong> </td> -->
+                      </tr>
+                      <tr>
+                          <td> ن</td>
+                          
+                          <td> <button id="play18">&#9658</button>
+                            <script>
+                                 let play18 = document.getElementById("play18");
+                                     function playMusic18() {
+                                      let audio = new Audio("Man amana.mp3");
+                                      audio.play()
+                                   }
+                                   play18.addEventListener("click", playMusic18);
+                            </script> عَامِلَ<u>ةٌ نَّا</u>صِبَةٌ
+
+                              </td>
+                          <td> <button id="play19">&#9658</button>
+                            <script>
+                                 let play19 = document.getElementById("play19");
+                                     function playMusic19() {
+                                      let audio = new Audio("Man amana.mp3");
+                                      audio.play()
+                                   }
+                                   play19.addEventListener("click", playMusic19);
+                            </script> مِ<u>نْ نِ</u>سَائِهِمْ </td>
+                          <!-- <td>
+                              <p class="status delivered">Delivered</p>
+                          </td>
+                          <td> <strong>$149.70</strong> </td> -->
+                      </tr>
+                      
+                      
+                  </tbody>
+              </table>
+          </section>
+                  <p align="justify">Akan tetapi, apabila Nun sukun dan tanwin tadi bertemu dengan salah satu hurup yang empat tersebut didalam satu perkataan (kalimat) maka bukanlah bacaan Idgham, tetapi dibaca dengan terang atau diizharkan, Bacaan izhar ini disebut izhar mutlaq dikaitkan dengan halqi (halkam) atau syafah (bibir).
+                    <p>Contoh</p>
+                    <p> <button id="play20">&#9658</button>
+                      <script>
+                           let play20 = document.getElementById("play20");
+                               function playMusic20() {
+                                let audio = new Audio("Man amana.mp3");
+                                audio.play()
+                             }
+                             play20.addEventListener("click", playMusic20);
+                      </script> قِنْوَانٌ, dibaca qinwaa nun</p>
+
+                     <p><button id="play21">&#9658</button>
+                      <script>
+                           let play21 = document.getElementById("play21");
+                               function playMusic21() {
+                                let audio = new Audio("Man amana.mp3");
+                                audio.play()
+                             }
+                             play21.addEventListener("click", playMusic21);
+                      </script> صِنْوَانٌ, dibaca shinwaa nun </p>
+                      
+                     <p> <button id="play22">&#9658</button>
+                      <script>
+                           let play22 = document.getElementById("play22");
+                               function playMusic22() {
+                                let audio = new Audio("Man amana.mp3");
+                                audio.play()
+                             }
+                             play22.addEventListener("click", playMusic22);
+                      </script>بُنْيَانٌ, dibaca bun-yaa nun </p>
+                      
+                     <p> <button id="play23">&#9658</button>
+                      <script>
+                           let play23 = document.getElementById("play23");
+                               function playMusic23() {
+                                let audio = new Audio("Man amana.mp3");
+                                audio.play()
+                             }
+                             play23.addEventListener("click", playMusic23);
+                      </script>الدُّنْيَا, dibaca dun-yaa
+                    </p>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Idgham Bila Ghunnah
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p align="justify">Apabila ada Nun sukun dan tanwin bertemu dengan salah satu huruf lam (ل) dan ra (ر) maka hukum bacaannya disebut: Idgham bila Ghunnah Idgham artinya: memasukkan atau mentasydidkan. Dan Bila Ghunnah artinya dengan tidak mendengungkan.</p>
+                  <p>Contoh:</p>
+                  <section class="table__body">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>  <span class="icon-arrow">&UpArrow;</span></th>
+                                <th> Tanwin </th>
+                                <th> Nun Sukun </th>
+                                
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td> ل </td>
+                                
+                                <td> <button id="play24">&#9658</button>
+                                  <script>
+                                       let play24 = document.getElementById("play24");
+                                           function playMusic24() {
+                                            let audio = new Audio("Man amana.mp3");
+                                            audio.play()
+                                         }
+                                         play24.addEventListener("click", playMusic24);
+                                  </script> فَوَيْ<u>لٌ لِّ</u>لْمُصَلِّيْنَ
+      
+                                   </td>
+                                <td> <button id="play25">&#9658</button>
+                                  <script>
+                                       let play25 = document.getElementById("play25");
+                                           function playMusic25() {
+                                            let audio = new Audio("Man amana.mp3");
+                                            audio.play()
+                                         }
+                                         play25.addEventListener("click", playMusic25);
+                                  </script> يَكُ<u>نْ لَّ</u>هُ
+      
+                                   </td>
+                                <!-- <td>
+                                    <p class="status delivered">Delivered</p>
+                                </td>
+                                <td> <strong> $128.90 </strong></td> -->
+                            </tr>
+                            <tr>
+                                <td>  ر </td>
+                                
+                                <td> <button id="play26">&#9658</button>
+                                  <script>
+                                       let play26 = document.getElementById("play26");
+                                           function playMusic26() {
+                                            let audio = new Audio("Man amana.mp3");
+                                            audio.play()
+                                         }
+                                         play26.addEventListener("click", playMusic26);
+                                  </script> فِي عِيشَ<u>ةٍ رَّ</u>اضِيَةٍ</td>
+                                <td> <button id="play27">&#9658</button>
+                                  <script>
+                                       let play27 = document.getElementById("play27");
+                                           function playMusic27() {
+                                            let audio = new Audio("Man amana.mp3");
+                                            audio.play()
+                                         }
+                                         play27.addEventListener("click", playMusic27);
+                                  </script> اَ<u>نۡ رَّ</u>اٰهُ اسۡتَغۡنٰىؕ
+      
+                                    </td>
+                                <!-- <td>
+                                    <p class="status cancelled">Cancelled</p>
+                                </td>
+                                <td> <strong>$5350.50</strong> </td> -->
+                            </tr>
+                          </tbody>
+                        </table>
+                    </section>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Iqlab
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p align="justify">Iqlab artinya: membalik atau menukar. Maknanya hurup Nun atau Tanwin itu membacanya ketika itu dibalik (ditukar) menjadi Mim. Hal tersebut apabila ada Nun sukun atau tanwin bertemu dengan hurup Ba (ب) maka hukum bacaanya disebut Iqlab. </p>
+                  <p>Contoh:</p>
+                  <section class="table__body">
+                    <table>
+                        <thead>
+                            <tr>
+                                
+                                <th> Tanwin </th>
+                                <th> Nun Sukun </th>
+                                
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                
+                                
+                                <td> <button id="play28">&#9658</button>
+                                  <script>
+                                       let play28 = document.getElementById("play28");
+                                           function playMusic28() {
+                                            let audio = new Audio("Man amana.mp3");
+                                            audio.play()
+                                         }
+                                         play28.addEventListener("click", playMusic28);
+                                  </script> عَوَا<u>نٌۢ بَ</u>يْنَ
+      
+                                   </td>
+                                <td> <button id="play29">&#9658</button>
+                                  <script>
+                                       let play29 = document.getElementById("play29");
+                                           function playMusic29() {
+                                            let audio = new Audio("Man amana.mp3");
+                                            audio.play()
+                                         }
+                                         play29.addEventListener("click", playMusic29);
+                                  </script> مِ<u>نْۢ بَ</u>عْدِ
+      
+                                   </td>
+                                <!-- <td>
+                                    <p class="status delivered">Delivered</p>
+                                </td>
+                                <td> <strong> $128.90 </strong></td> -->
+                            </tr>
+                            <tr>
+                                
+                                
+                                <td> <button id="play30">&#9658</button>
+                                  <script>
+                                       let play30 = document.getElementById("play30");
+                                           function playMusic30() {
+                                            let audio = new Audio("Man amana.mp3");
+                                            audio.play()
+                                         }
+                                         play30.addEventListener("click", playMusic30);
+                                  </script> كِرَا<u>مٍ بَ</u>رَرَةٍ </td>
+                                <td> <button id="play31">&#9658</button>
+                                  <script>
+                                       let play31 = document.getElementById("play31");
+                                           function playMusic31() {
+                                            let audio = new Audio("Man amana.mp3");
+                                            audio.play()
+                                         }
+                                         play31.addEventListener("click", playMusic31);
+                                  </script> مِ<u>نْۢ بَ</u>قْلِهَا
+      
+                                    </td>
+                                <!-- <td>
+                                    <p class="status cancelled">Cancelled</p>
+                                </td>
+                                <td> <strong>$5350.50</strong> </td> -->
+                            </tr>
+                          </tbody>
+                        </table>
+                    </section>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  Ikhfa
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p align="justify">Apabila ada Nun sukun atau Tanwin bertemu dengan salah satu dari hurup yang 15 tersebut dibawah ini maka hukum bacaannya disebut Ikhfa Haqiqi. Ikhfa artinya:menyamarkan atau menyembunyikan, Haqiqi artinya Sungguh-sungguh atau benar. Cara membacanya adalah samar-samar. Maksud samar-samar adalah dibaca antara harus ldgham dan Izhar dengan hurup yang didepannya mukanya dengan mendengung. Hurup yang 15 itu ialah:</p>
+                  <h4 align="right">ص – ذ – ث – ك – ج – ش – ق – س – د – ط – ز – ف – ت – ض – ظ</h4>
+                  <h4>Tingkatan Bacaan Ikhfa</h4>
+                  <p align="justify">Sesuai dengan makhraj Nun dengan kelima belas huruf Ikhfa berbeda-beda, maka suara yang dihasilkan dari masing-masing huruf Ikhfa juga berbeda-beda. Oleh sebab itu tingkatan Ikhfa dibagi menjadi tiga bagian yaitu:</p>
+                  <h5>1. Ikhfa Ab’ad</h5>
+                  <p align="justify">Ikhfa Ab’ad artinya paling jauh, berasal dari kata بَعُدَ.
+
+                    Ikhfa Ab’ad terjadi apabila Nun Mati atau Tanwin menghadapi salah satu dari huruf Ikhfa Ab’ad
+                    
+                    
+                    Huruf Ikhfa Ab’ad ada 2, yaitu: </p><h4 align="right">
+                    
+                    
+                    ق – ك</h4>
+                    
+                    
+                    <p align="justify">Dinamakan Ikhfa Ab’ad, sebab Nun Mati atau Tanwin menghadapi huruf yang jarak makhrajnya paling jauh dengan makhraj Nun (bunyi Nun pada Tanwin).
+                    
+                    Diantara kelima belas huruf Ikhfa, huruf Qaf dan Kaf adalah huruf yang paling jauh dari Nun, sebab berasal dari Aqshal Lisan (pangkal lidah).
+                    
+                    Ketika Nun Mati atau Tanwin menghadapi huruf Qaf dan Kaf, akan menghasilkan bunyi (suara) “NG” dalam bahasa Indonesia.
+                    
+                    Pada waktu mengucapkan hukum Ikhfa Ab’ad, bacaan Ikhfa-nya lebih lama dari ghunnah-nya.</p>
+                    <p>Contoh:</p>
+                  <section class="table__body">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>  <span class="icon-arrow">&UpArrow;</span></th>
+                                <th> Tanwin </th>
+                                <th> Nun Sukun </th>
+                                
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td> ق</td>
+                                
+                                <td> <button id="play32">&#9658</button>
+                                  <script>
+                                       let play32 = document.getElementById("play32");
+                                           function playMusic32() {
+                                            let audio = new Audio("Man amana.mp3");
+                                            audio.play()
+                                         }
+                                         play32.addEventListener("click", playMusic32);
+                                  </script> شَيْ<u>ءٍ قَ</u>دِيرٌ
+      
+                                   </td>
+                                <td> <button id="play33">&#9658</button>
+                                  <script>
+                                       let play33 = document.getElementById("play33");
+                                           function playMusic33() {
+                                            let audio = new Audio("Man amana.mp3");
+                                            audio.play()
+                                         }
+                                         play33.addEventListener("click", playMusic33);
+                                  </script> مِّ<u>ن قَ</u>بْلِهِ
+      
+                                   </td>
+                                <!-- <td>
+                                    <p class="status delivered">Delivered</p>
+                                </td>
+                                <td> <strong> $128.90 </strong></td> -->
+                            </tr>
+                            <tr>
+                                <td>  ك</td>
+                                
+                                <td> <button id="play34">&#9658</button>
+                                  <script>
+                                       let play34 = document.getElementById("play34");
+                                           function playMusic34() {
+                                            let audio = new Audio("Man amana.mp3");
+                                            audio.play()
+                                         }
+                                         play34.addEventListener("click", playMusic34);
+                                  </script> قَوْ<u>لًا كَ</u>رِيمًا</td>
+                                <td> <button id="play35">&#9658</button>
+                                  <script>
+                                       let play35 = document.getElementById("play35");
+                                           function playMusic35() {
+                                            let audio = new Audio("Man amana.mp3");
+                                            audio.play()
+                                         }
+                                         play35.addEventListener("click", playMusic35);
+                                  </script> مِ<u>نْ كُ</u>لِّ
+      
+                                    </td>
+                                <!-- <td>
+                                    <p class="status cancelled">Cancelled</p>
+                                </td>
+                                <td> <strong>$5350.50</strong> </td> -->
+                            </tr>
+                          </tbody>
+                        </table>
+                    </section>
+                    <h5>2. Ikhfa Aqrab</h5>
+                    <p align="justify">Aqrab artinya dekat, berasal dari kata قَرُبَ.
+
+
+                      Ikhfa Aqrab terjadi apabila Nun Mati atau Tanwin menghadapi salah satu dari tiga huruf Ikhfa Aqrab
+                      
+                     
+                      Huruf Ikhfa Ab’ad ada 3, yaitu:</p><h4 align="right">
+                      
+                      ت – ط – د</h4>
+                      
+                      
+                      
+                     <p align="justify"> Dinamakan Ikhfa Aqrab, sebab Nun Mati atau Tanwin menghadapi huruf yang jarak makhrajnya paling dekat dengan makhraj Nun (bunyi Nun pada Tanwin).
+                      
+                      Diantara kelima belas huruf Ikhfa, huruf Ta, Tha dan Dal adalah huruf yang paling dekat makhrajnya dari Nun, sebab berasal dari Ushuluts Tsanayal Ulya (pangkal gigi seri atas).
+                      
+                      Sedangkan makhraj Nun berada diatasnya sedikit, yaitu pada makhraj Lahmanatul Asnan (gusi-gusi atau daging tempat tumbuhnya gigi seri atas).
+                      
+                      Suara yang dihasilkan dari hukum Ikhfa Aqrab ini mendekati bunyi (suara) “N” dalam bahasa Indonesia.
+                      
+                      Kemudian suara ditahan dua ketukan agar tidak tertukar dengan Idzhar yang hanya dibaca satu ketukan.
+                      
+                      Pada waktu mengucapkan huruf Ikhfa Aqrab, bacaan Ikhfa-nya lebih pendek daripada ghunnah-nya.</p>
+                      <p>Contoh:</p>
+                      <section class="table__body">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>  <span class="icon-arrow">&UpArrow;</span></th>
+                                    <th> Tanwin </th>
+                                    <th> Nun Sukun </th>
+                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td> ت</td>
+                                    
+                                    <td> <button id="play36">&#9658</button>
+                                      <script>
+                                           let play36 = document.getElementById("play36");
+                                               function playMusic36() {
+                                                let audio = new Audio("Man amana.mp3");
+                                                audio.play()
+                                             }
+                                             play36.addEventListener("click", playMusic36);
+                                      </script> نِعْمَ<u>ةٍ تُ</u>جْزَى
+          
+                                       </td>
+                                    <td> <button id="play37">&#9658</button>
+                                      <script>
+                                           let play37 = document.getElementById("play37");
+                                               function playMusic37() {
+                                                let audio = new Audio("Man amana.mp3");
+                                                audio.play()
+                                             }
+                                             play37.addEventListener("click", playMusic37);
+                                      </script> مِ<u>نْ تَ</u>حْتِهَا
+          
+                                       </td>
+                                    <!-- <td>
+                                        <p class="status delivered">Delivered</p>
+                                    </td>
+                                    <td> <strong> $128.90 </strong></td> -->
+                                </tr>
+                                <tr>
+                                    <td>  ط</td>
+                                    
+                                    <td> <button id="play38">&#9658</button>
+                                      <script>
+                                           let play38 = document.getElementById("play38");
+                                               function playMusic38() {
+                                                let audio = new Audio("Man amana.mp3");
+                                                audio.play()
+                                             }
+                                             play38.addEventListener("click", playMusic38);
+                                      </script> صَعِي<u>دًا طَ</u>يِّبًا </td>
+                                    <td> <button id="play39">&#9658</button>
+                                      <script>
+                                           let play39 = document.getElementById("play39");
+                                               function playMusic39() {
+                                                let audio = new Audio("Man amana.mp3");
+                                                audio.play()
+                                             }
+                                             play39.addEventListener("click", playMusic39);
+                                      </script> مِ<u>نْ طِ</u>ينٍ
+          
+                                        </td>
+                                    <!-- <td>
+                                        <p class="status cancelled">Cancelled</p>
+                                    </td>
+                                    <td> <strong>$5350.50</strong> </td> -->
+                                </tr>
+                                <tr>
+                                  <td> د </td>
+                                  
+                                  <td> <button id="play40">&#9658</button>
+                                    <script>
+                                         let play40 = document.getElementById("play40");
+                                             function playMusic40() {
+                                              let audio = new Audio("Man amana.mp3");
+                                              audio.play()
+                                           }
+                                           play40.addEventListener("click", playMusic40);
+                                    </script> دَ<u>کًّا دَ</u>کًّا </td>
+                                  <td> <button id="play41">&#9658</button>
+                                    <script>
+                                         let play41 = document.getElementById("play41");
+                                             function playMusic41() {
+                                              let audio = new Audio("Man amana.mp3");
+                                              audio.play()
+                                           }
+                                           play41.addEventListener("click", playMusic41);
+                                    </script> مِ<u>نْ دُ</u>ونِ
+        
+                                      </td>
+                                  <!-- <td>
+                                      <p class="status cancelled">Cancelled</p>
+                                  </td>
+                                  <td> <strong>$5350.50</strong> </td> -->
+                              </tr>
+                              </tbody>
+                            </table>
+                        </section>
+                      <h5>3. Ikhfa Ausath</h5>
+                      <p>Ausath artinya pertengahan, berasal dari kata وَسَطَ.
+
+                        Ikhfa Ausath terjadi apabila Nun Mati atau Tanwin menghadapi salah satu dari sepuluh huruf Ikhfa Ausath
+                        
+                       
+                        Huruf Ikhfa Ausath ada 10, yaitu:</p><h4 align="right">
+                        
+                         ث – ج – ذ – ز – س – ش – ص – ض – ظ – ف</h4>
+                        
+                     
+                        
+                        <p>Dinamakan Ikhfa Aqrab, sebab Nun Mati atau Tanwin menghadapi huruf yang jarak makhrajnya sedang, tidak terlalu jauh atau terlalu dekat dengan makhraj Nun.
+                        
+                        Suara yang dihasilkan dari hukum Ikhfa Ausath ini adalah antara “NG” dan “N”, artinya suara Ikhfa Ausath bersifat pertengahan antara Ikhfa Ab’ad dengan Ikhfa Aqrab.
+                        
+                        Pada waktu mengucapkan hukum Ikhfa Ausath, bacaan Ikhfa dan Ghunnah-nya sama (sedang).</p>
+                        <p>Contoh:</p>
+            
+                        <section class="table__body">
+                          <table>
+                              <thead>
+                                  <tr>
+                                      <th>  <span class="icon-arrow">&UpArrow;</span></th>
+                                      <th> Tanwin </th>
+                                      <th> Nun Sukun </th>
+                                      
+                                  </tr>
+                              </thead>
+                              <tbody>
+                                  <tr>
+                                      <td> ث </td>
+                                      
+                                      <td><button id="play42">&#9658</button>
+                                        <script>
+                                             let play42 = document.getElementById("play42");
+                                                 function playMusic42() {
+                                                  let audio = new Audio("Man amana.mp3");
+                                                  audio.play()
+                                               }
+                                               play42.addEventListener("click", playMusic42);
+                                        </script> جَمِیۡ<u>عًا ثُ</u>مَّ</td>
+                                      <td><button id="play43">&#9658</button>
+                                        <script>
+                                             let play43 = document.getElementById("play43");
+                                                 function playMusic43() {
+                                                  let audio = new Audio("Man amana.mp3");
+                                                  audio.play()
+                                               }
+                                               play43.addEventListener("click", playMusic43);
+                                        </script> مَ<u>نْ ثَ</u>قُلَتْ</td>
+                                      
+                                  </tr>
+                                  <tr>
+                                      <td> ج </td>
+                                      
+                                      <td><button id="play44">&#9658</button>
+                                        <script>
+                                             let play44 = document.getElementById("play44");
+                                                 function playMusic44() {
+                                                  let audio = new Audio("Man amana.mp3");
+                                                  audio.play()
+                                               }
+                                               play44.addEventListener("click", playMusic44);
+                                        </script> حُ<u>بًّا جَ</u>مًّا </td>
+                                      <td><button id="play45">&#9658</button>
+                                        <script>
+                                             let play45 = document.getElementById("play45");
+                                                 function playMusic45() {
+                                                  let audio = new Audio("Man amana.mp3");
+                                                  audio.play()
+                                               }
+                                               play45.addEventListener("click", playMusic45);
+                                        </script>  مِ<u>نْ جُ</u>وعٍ </td>
+                                      <!-- <td>
+                                          <p class="status cancelled">Cancelled</p>
+                                      </td>
+                                      <td> <strong>$5350.50</strong> </td> -->
+                                  </tr>
+                                  <tr>
+                                      <td>  ذ </td>
+                                      
+                                      <td> <button id="play46">&#9658</button>
+                                        <script>
+                                             let play46 = document.getElementById("play46");
+                                                 function playMusic46() {
+                                                  let audio = new Audio("Man amana.mp3");
+                                                  audio.play()
+                                               }
+                                               play46.addEventListener("click", playMusic46);
+                                        </script> كُلُّ نَفْ<u>سٍ ذَ</u>ائِقَةُ </u>لِيمٌ
+                                          </td>
+                                      <td> <button id="play47">&#9658</button>
+                                        <script>
+                                             let play47 = document.getElementById("play47");
+                                                 function playMusic47() {
+                                                  let audio = new Audio("Man amana.mp3");
+                                                  audio.play()
+                                               }
+                                               play47.addEventListener("click", playMusic47);
+                                        </script> فَ<u>أَنْذَ</u>رْتُكُمْ </td>
+                                      <!-- <td>
+                                          <p class="status shipped">Shipped</p>
+                                      </td>
+                                      <td> <strong>$210.40</strong> </td> -->
+                                  </tr>
+                                  <tr>
+                                      <td> ز </td>
+                                      
+                                      <td> <button id="play48">&#9658</button>
+                                        <script>
+                                             let play48 = document.getElementById("play48");
+                                                 function playMusic48() {
+                                                  let audio = new Audio("Man amana.mp3");
+                                                  audio.play()
+                                               }
+                                               play48.addEventListener("click", playMusic48);
+                                        </script>  يَوْمَئِ<u>ذٍ زُ</u>رْقًا
+            
+                                          </td>
+                                      <td> <button id="play49">&#9658</button>
+                                        <script>
+                                             let play49 = document.getElementById("play49");
+                                                 function playMusic49() {
+                                                  let audio = new Audio("Man amana.mp3");
+                                                  audio.play()
+                                               }
+                                               play49.addEventListener("click", playMusic49);
+                                        </script> مَ<u>نۡ زَ</u>کّٰىہَا </td>
+                                      <!-- <td>
+                                          <p class="status delivered">Delivered</p>
+                                      </td>
+                                      <td> <strong>$149.70</strong> </td> -->
+                                  </tr>
+                                  <tr>
+                                      <td> س </td>
+                                      
+                                      <td> <button id="play50">&#9658</button>
+                                        <script>
+                                             let play50 = document.getElementById("play50");
+                                                 function playMusic50() {
+                                                  let audio = new Audio("Man amana.mp3");
+                                                  audio.play()
+                                               }
+                                               play50.addEventListener("click", playMusic50);
+                                        </script>  لَيَا<u>لٍ سَ</u>وِيًّا </td>
+                                      <td> <button id="play51">&#9658</button>
+                                        <script>
+                                             let play51 = document.getElementById("play51");
+                                                 function playMusic51() {
+                                                  let audio = new Audio("Man amana.mp3");
+                                                  audio.play()
+                                               }
+                                               play51.addEventListener("click", playMusic51);
+                                        </script> مِ<u>نْ سِ</u>جِّيلٍ </td>
+                                      <!-- <td>
+                                          <p class="status pending">Pending</p>
+                                      </td>
+                                      <td> <strong>$399.99</strong> </td> -->
+                                  </tr>
+                                  <tr>
+                                      <td>  ش </td>
+                                      
+                                      <td> <button id="play52">&#9658</button>
+                                        <script>
+                                             let play52 = document.getElementById("play52");
+                                                 function playMusic52() {
+                                                  let audio = new Audio("Man amana.mp3");
+                                                  audio.play()
+                                               }
+                                               play52.addEventListener("click", playMusic52);
+                                        </script> جَبَّا<u>رًا شَ</u>قِيًّا </td>
+                                      <td> <button id="play53">&#9658</button>
+                                        <script>
+                                             let play53 = document.getElementById("play53");
+                                                 function playMusic53() {
+                                                  let audio = new Audio("Man amana.mp3");
+                                                  audio.play()
+                                               }
+                                               play53.addEventListener("click", playMusic53);
+                                        </script> وَمِ<u>نْ شَ</u>رِّ </td>
+                                     
+                                  </tr>
+                                  <tr>
+                                    <td>  ص </td>
+                                    
+                                    <td> <button id="play54">&#9658</button>
+                                      <script>
+                                           let play54 = document.getElementById("play54");
+                                               function playMusic54() {
+                                                let audio = new Audio("Man amana.mp3");
+                                                audio.play()
+                                             }
+                                             play54.addEventListener("click", playMusic54);
+                                      </script> صَ<u>فًّا صَ</u>فًّا
+          
+                                        </td>
+                                    <td> <button id="play55">&#9658</button>
+                                      <script>
+                                           let play55 = document.getElementById("play55");
+                                               function playMusic55() {
+                                                let audio = new Audio("Man amana.mp3");
+                                                audio.play()
+                                             }
+                                             play55.addEventListener("click", playMusic55);
+                                      </script> عَ<u>نْ صَ</u>لاتِهِمْ </td>
+                                    <!-- <td>
+                                        <p class="status delivered">Delivered</p>
+                                    </td>
+                                    <td> <strong>$149.70</strong> </td> -->
+                                </tr>
+                                <tr>
+                                    <td> ض </td>
+                                    
+                                    <td> <button id="play56">&#9658</button>
+                                      <script>
+                                           let play56 = document.getElementById("play56");
+                                               function playMusic56() {
+                                                let audio = new Audio("Man amana.mp3");
+                                                audio.play()
+                                             }
+                                             play56.addEventListener("click", playMusic56);
+                                      </script> قُوَّ<u>ةٍ ضَ</u>عْفًا </td>
+                                    <td> <button id="play57">&#9658</button>
+                                      <script>
+                                           let play57 = document.getElementById("play57");
+                                               function playMusic57() {
+                                                let audio = new Audio("Man amana.mp3");
+                                                audio.play()
+                                             }
+                                             play57.addEventListener("click", playMusic57);
+                                      </script> مِ<u>نْ ضَ</u>رِيعٍ </td>
+                                    <!-- <td>
+                                        <p class="status pending">Pending</p>
+                                    </td>
+                                    <td> <strong>$399.99</strong> </td> -->
+                                </tr>
+                                <tr>
+                                    <td>  ظ </td>
+                                    
+                                    <td> <button id="play58">&#9658</button>
+                                      <script>
+                                           let play58 = document.getElementById("play58");
+                                               function playMusic58() {
+                                                let audio = new Audio("Man amana.mp3");
+                                                audio.play()
+                                             }
+                                             play58.addEventListener("click", playMusic58);
+                                      </script> ظِ<u>لًّا ظَ</u>لِيْلًا </td>
+                                    <td> <button id="play59">&#9658</button>
+                                      <script>
+                                           let play59 = document.getElementById("play59");
+                                               function playMusic59() {
+                                                let audio = new Audio("Man amana.mp3");
+                                                audio.play()
+                                             }
+                                             play59.addEventListener("click", playMusic59);
+                                      </script> مِ<u>نْ ظُ</u>هُوْرِهَا </td>
+                                   
+                                </tr>
+                                <tr>
+                                  <td>  ف </td>
+                                  
+                                  <td> <button id="play60">&#9658</button>
+                                    <script>
+                                         let play60 = document.getElementById("play60");
+                                             function playMusic60() {
+                                              let audio = new Audio("Man amana.mp3");
+                                              audio.play()
+                                           }
+                                           play60.addEventListener("click", playMusic60);
+                                    </script> وَ کُ<u>لٌّ فِ</u>یۡ </td>
+                                  <td> <button id="play61">&#9658</button>
+                                    <script>
+                                         let play61 = document.getElementById("play61");
+                                             function playMusic61() {
+                                              let audio = new Audio("Man amana.mp3");
+                                              audio.play()
+                                           }
+                                           play61.addEventListener("click", playMusic61);
+                                    </script> مِّ<u>ن فَ</u>ضْلِهِ </td>
+                                 
+                              </tr>
+                                  
+                              </tbody>
+                          </table>
+                      </section>
+                
+                      </div>
+              </div>
+            </div>
+          </div>
+          <!-- <p>Dalam ilmu tajwid, hukum yang biasa dibahas oleh para ulama tajwid adalah mengenai hukum nun sukun dan tanwin. Hukum nun sukun dan tanwin ada 5 macam:</p>
           <h4>1. Idzhar</h4>
           <p align="justify">Idzhar berarti menerangkan atau menjelaskan. Sedangkan Halqi artinya: Kerongkongan. Yaitu Apabila ada nun sukun dan tanwin bertemu dengan salah satu huruf Halqi (tenggorokan) yang enam Yaitu: Hamzah, Ha', Ha, Kha, ‘Ain dan Ghai. Nun sukun dan tanwin di atas harus dibaca dengan terang dan jelas. Sebab bertemu dengan hurup Halqi (tenggorokan). </p>
           <p>Contoh:</p>
-          <h5 align="right">مِّنْ اٰلِ فِرْعَوْنَ ,مِنْ اَهْلِ الْكِتٰبِ ,رَسُولٌ أَمِينٌ</h5>
+          <h5 align="right">مِّ<u>نْ اٰلِ</u> فِرْعَوْنَ ,مِنْ اَهْلِ الْكِتٰبِ ,رَسُولٌ أَمِينٌ</h5>
           <h4>2. Idgham Bighunnah</h4>
           <p align="justify">Idgham artinya : Memasukkan atau mentasydidkan, Bighunnah artinya: dengan mendengungkan. Hal tersebut apabila ada Nun sukun atau tanwin bertemu dengan salah satu dari hurup Ya, Waw, Mim dan Nun. maka hukum bacaanaya disebut ldgham Bighunnah. Prosesnya adalah nun sukun atau tanwin dimasukkan atau ditasydidkan kedalam salah satu hurup yang empat itu dengan suara didengungkan.</p>
           <p align="justify">Akan tetapi, apabila Nun sukun dan tanwin tadi bertemu dengan salah satu hurup yang empat tersebut didalam satu perkataan (kalimat) maka bukanlah bacaan Idgham, tetapi dibaca dengan terang atau diizharkan, Bacaan izhar ini disebut izhar mutlaq dikaitkan dengan halqi (halkam) atau syafah (bibir).</p>
@@ -93,13 +1176,13 @@
           <h4>4. Iqlab</h4>
           <p align="justify">Iqlab artinya: membalik atau menukar. Maknanya hurup Nun atau Tanwin itu membacanya ketika itu dibalik (ditukar) menjadi Mim. Hal tersebut apabila ada Nun sukun atau tanwin bertemu dengan hurup Ba maka hukum bacaanya disebut Iqlab. </p>
           <h4>5. Ikhfa Haqiqi</h4>
-          <p align="justify">Apabila ada Nun sukun atau Tanwin bertemu dengan salah satu dari hurup yang 15 tersebut dibawah ini maka hukum bacaannya disebut Ikhfa Haqiqi. Ikhfa artinya:menyamarkan atau menyembunyikan, Haqiqi artinya Sungguh-sungguh atau benar. Cara membacanya adalah samar-samar. Maksud samar-samar adalah dibaca antara harus ldgham dan Izhar dengan hurup yang didepannya mukanya dengan mendengung. Hurup yang 15 itu ialah:</p>
+          <p align="justify">Apabila ada Nun sukun atau Tanwin bertemu dengan salah satu dari hurup yang 15 tersebut dibawah ini maka hukum bacaannya disebut Ikhfa Haqiqi. Ikhfa artinya:menyamarkan atau menyembunyikan, Haqiqi artinya Sungguh-sungguh atau benar. Cara membacanya adalah samar-samar. Maksud samar-samar adalah dibaca antara harus ldgham dan Izhar dengan hurup yang didepannya mukanya dengan mendengung. Hurup yang 15 itu ialah:</p> -->
 
 
 
         </article>
 
-        <div class="col-md-12 col-lg-1 order-lg-1">
+        <!-- <div class="col-md-12 col-lg-1 order-lg-1">
           <div class="share sticky-top">
             <h3>Share</h3>
             <ul class="list-unstyled share-article">
@@ -108,15 +1191,12 @@
               <li><a href="#"><span class="icon-pinterest"></span></a></li>
             </ul>
           </div>
-        </div>
-        <div class="col-lg-3 mb-5 mb-lg-0 order-lg-3">
+        </div> -->
+        <!-- <div class="col-lg-3 mb-5 mb-lg-0 order-lg-3">
 
-          <div class="mb-4">
-            <a href="https://vimeo.com/342333493" class="video-wrap glightbox">
-              <span class="play-wrap"><span class="icon-play"></span></span>
-              <img src="images/img_1.jpg" alt="Image" class="img-fluid rounded">
-            </a>
-          </div>  
+      
+         
+          
 
           <div class="share floating-block sticky-top">
 
@@ -126,84 +1206,13 @@
               <input type="email" class="form-control mb-2" placeholder="Enter email">
               <input type="submit" value="Subscribe" class="btn btn-primary btn-block">
             </form>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
   </div>
 
-  <div class="section sec-portfolio bg-light pb-5 ">
-    <div class="container">
-      <div class="row mb-5">
-        <div class="col-lg-5 mx-auto text-center ">
-          <h2 class="heading text-primary mb-3" data-aos="fade-up" data-aos-delay="0">More Case Studies</h2>
-          <p class="mb-4" data-aos="fade-up" data-aos-delay="100">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-
-          <div id="post-slider-nav" data-aos="fade-up" data-aos-delay="200">
-            <button class="btn btn-primary py-2" class="prev" data-controls="prev">Prev</button>
-            <button class="btn btn-primary py-2" class="next" data-controls="next">Next</button>
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-    <div class="post-slider-wrap" data-aos="fade-up" data-aos-delay="300">
-
-
-
-      <div id="post-slider" class="post-slider">
-        <div class="item">
-          <a href="case-study.html" class="card d-block">
-            <img src="images/img-1.jpg" class="card-img-top" alt="Image">
-            <div class="card-body">
-              <h5 class="card-title">Behind the word mountains</h5>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-            </div>
-          </a>
-        </div>
-
-        <div class="item">
-          <a href="case-study.html" class="card">
-            <img src="images/img-2.jpg" class="card-img-top" alt="Image">
-            <div class="card-body">
-              <h5 class="card-title">Behind the word mountains</h5>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-            </div>
-          </a>
-        </div>
-
-        <div class="item">
-          <a href="case-study.html" class="card">
-            <img src="images/img-3.jpg" class="card-img-top" alt="Image">
-            <div class="card-body">
-              <h5 class="card-title">Behind the word mountains</h5>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-            </div>
-          </a>
-        </div>
-
-        <div class="item">
-          <a href="case-study.html" class="card">
-            <img src="images/img-4.jpg" class="card-img-top" alt="Image">
-            <div class="card-body">
-              <h5 class="card-title">Behind the word mountains</h5>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-            </div>
-          </a>
-        </div>
-
-        <div class="item">
-          <a href="case-study.html" class="card">
-            <img src="images/img-1.jpg" class="card-img-top" alt="Image">
-            <div class="card-body">
-              <h5 class="card-title">Behind the word mountains</h5>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
+  
 
 
   </div>
@@ -214,83 +1223,17 @@
         <div class="col-lg-4">
           <div class="widget">
             <h3>About</h3>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-          </div> <!-- /.widget -->
-          <div class="widget">
-            <address>43 Raymouth Rd. Baltemoer, <br> London 3910</address>
-            <ul class="list-unstyled links">
-              <li><a href="tel://11234567890">+1(123)-456-7890</a></li>
-              <li><a href="tel://11234567890">+1(123)-456-7890</a></li>
-              <li><a href="mailto:info@mydomain.com">info@mydomain.com</a></li>
+            <p>Website ini dibuat untuk digunakan sebagai media pembelajaran ilmu tajwid.</p>
+				</div> <!-- /.widget -->
+				<div class="widget">
+					<address>Garut, Jawa Barat <br> 44116</address>
+					<ul class="list-unstyled links">
+						<li><a href="tel://11234567890">+6289677416308</a></li>
+						<li><a href="mailto:info@mydomain.com">nudinh052@gmail.com</a></li>
             </ul>
           </div> <!-- /.widget -->
         </div> <!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <div class="widget">
-            <h3>Company</h3>
-            <ul class="list-unstyled float-start links">
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Vision</a></li>
-              <li><a href="#">Mission</a></li>
-              <li><a href="#">Terms</a></li>
-              <li><a href="#">Privacy</a></li>
-            </ul>
-            <ul class="list-unstyled float-start links">
-              <li><a href="#">Partners</a></li>
-              <li><a href="#">Business</a></li>
-              <li><a href="#">Careers</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">FAQ</a></li>
-              <li><a href="#">Creative</a></li>
-            </ul>
-          </div> <!-- /.widget -->
-        </div> <!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <div class="widget">
-            <h3>Navigation</h3>
-            <ul class="list-unstyled links mb-4">
-              <li><a href="#">Our Vision</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Contact us</a></li>
-            </ul>
-
-            <h3>Social</h3>
-            <ul class="list-unstyled social">
-              <li><a href="#"><span class="icon-instagram"></span></a></li>
-              <li><a href="#"><span class="icon-twitter"></span></a></li>
-              <li><a href="#"><span class="icon-facebook"></span></a></li>
-              <li><a href="#"><span class="icon-linkedin"></span></a></li>
-              <li><a href="#"><span class="icon-pinterest"></span></a></li>
-              <li><a href="#"><span class="icon-dribbble"></span></a></li>
-            </ul>
-          </div> <!-- /.widget -->
-        </div> <!-- /.col-lg-4 -->
-      </div> <!-- /.row -->
-
-      <div class="row mt-5">
-        <div class="col-12 text-center">
-          <!-- 
-              **==========
-              NOTE: 
-              Please don't remove this copyright link unless you buy the license here https://untree.co/license/  
-              **==========
-            -->
-
-            <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; Designed with love by <a href="https://untree.co">Untree.co</a>  Distributed By <a href="https://themewagon.com">ThemeWagon</a><!-- License information: https://untree.co/license/ -->
-            </p>
-          </div>
-        </div>
-      </div> <!-- /.container -->
-    </div> <!-- /.site-footer -->
-
-    <!-- Preloader -->
-    <div id="overlayer"></div>
-    <div class="loader">
-      <div class="spinner-border text-primary" role="status">
-        <span class="visually-hidden">Loading...</span>
-      </div>
-    </div>
+        
 
 
     <script src="js/bootstrap.bundle.min.js"></script>

@@ -21,7 +21,138 @@
   --light: #DFE4FD;
   --dark: #011A41;
 }
+button{
+  background-color: white;
+  border: 0px;
+}
+main.table {
+  width: 82vw;
+  height: 90vh;
+  background-color: #fff5;
 
+  backdrop-filter: blur(7px);
+  box-shadow: 0 .4rem .8rem #0005;
+  border-radius: .8rem;
+
+  overflow: hidden;
+}
+
+.table__header {
+  width: 100%;
+  height: 10%;
+  background-color: #fff4;
+  padding: .8rem 1rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.table__body {
+  width: 95%;
+  max-height: calc(89% - 1.6rem);
+  background-color: #fffb;
+
+  margin: .8rem auto;
+  border-radius: .6rem;
+
+  overflow: auto;
+  overflow: overlay;
+}
+
+
+.table__body::-webkit-scrollbar{
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+.table__body::-webkit-scrollbar-thumb{
+  border-radius: .5rem;
+  background-color: #0004;
+  visibility: hidden;
+}
+
+.table__body:hover::-webkit-scrollbar-thumb{ 
+  visibility: visible;
+}
+
+
+table {
+  width: 100%;
+}
+table, th, td {
+  border-collapse: collapse;
+  padding: 1rem;
+  text-align: left;
+}
+
+thead th {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #d5d1defe;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+.accordion{
+  max-width: 1000px !important;
+  margin: 50px auto;
+  box-shadow: 0 2px 25px 0 rgba(110, 130, 208, .18) !important;
+}
+
+.accordion-button{
+  background-color: #50623A !important;
+  color: #fff !important;
+  position: relative;
+  box-shadow: none !important;
+}
+
+.accordion-button:active, .accordion-button:focus{
+  border: none !important;
+}
+
+.accordion-button:hover{
+  background: #25aca3 !important;
+}
+
+.accordion-button::after{
+  content: "";
+  background: #fff;
+  transform: scale(1.2);
+  border-radius: 3px;
+  transition: .5s !important;
+}
+.banner {
+  background: url("../images/Home\ 3.png")
+    no-repeat center center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: #fff;
+
+  .lingkaran {
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    margin: auto;
+    height: 150px;
+    color: #fff;
+    background-color: #dc3545;
+  }
+  
+  .lingkaran i {
+    position: relative;
+    top: 30px;
+  }
+  
+  .crop-img {
+    object-fit: cover;
+  }
+  
+  .tim img {
+    width: 250px;
+    border: 10px solid #cccccc;
+  }
+}
 .back-to-top {
   position: fixed;
   display: none;
@@ -85,7 +216,7 @@ h6,
 
 .btn-primary,
 .btn-outline-primary:hover {
-  color: var(--light);
+  color: #50623A;
 }
 
 .btn-square {
@@ -4000,6 +4131,7 @@ textarea.form-control-lg {
 
 .navbar {
   position: relative;
+  background-color: #50623A;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
