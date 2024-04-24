@@ -138,10 +138,10 @@ thead th {
   transition: .5s !important;
 }
 .banner {
-  background: url("../images/Home\ 3.png")
+  background: url("../images/Home\ 4.png")
     no-repeat center center;
   background-size: cover;
-  padding-top: 20%;
+  padding-top: 35%;
   padding-bottom: 20%;
   color: #fff;
 
@@ -296,7 +296,7 @@ h6,
   .navbar .navbar-nav {
       margin-top: 10px;
       border-top: 1px solid rgba(0, 0, 0, .07);
-      background: #FFFFFF;
+      background: #50623A;
   }
 
   .navbar .navbar-nav .nav-link {
@@ -313,6 +313,7 @@ h6,
       transform-origin: 0% 0%;
       transition: .5s;
       opacity: 0;
+      background: #50623A
   }
 
   .navbar .nav-item:hover .dropdown-menu {
