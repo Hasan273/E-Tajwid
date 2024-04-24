@@ -21,6 +21,22 @@
   --light: #DFE4FD;
   --dark: #011A41;
 }
+.animasi{
+  transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+}
+.tombol-aktif{
+  padding: 10px 40px;
+  border-radius: 10px;
+  font-family: 'Pacifico',cursive;
+  font-size: 25px;
+  color: #fff;
+  text-decoration: none;
+}
+.biru{
+  background-color: #50623A;
+  
+}
 button{
   background-color: white;
   border: 0px;
