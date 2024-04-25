@@ -141,6 +141,7 @@ thead th {
   background: url("../images/Home\ 4.png")
     no-repeat center center;
   background-size: cover;
+  margin-top: 50px;
   padding-top: 35%;
   padding-bottom: 20%;
   color: #fff;
