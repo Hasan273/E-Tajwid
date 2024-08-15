@@ -223,6 +223,14 @@ h6,
   visibility: visible;
   opacity: 1;
 }
+.img{
+  width: 70%;
+}
+@media all and (max-width: 480px){
+  img{
+    width: 100%;
+  }
+}
 
 
 /*** Button ***/
